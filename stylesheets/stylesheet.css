@@ -313,6 +313,21 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#home {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  background: none;
+  text-shadow: #111 0px 0px 10px;
+}
+
+#login {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  background: none;
+  text-shadow: #111 0px 0px 10px;
+}
 
 #aboutus {
   color: #fff;
