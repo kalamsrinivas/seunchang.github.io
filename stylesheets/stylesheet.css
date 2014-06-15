@@ -489,7 +489,17 @@ Small Device Styles
 		padding:15px 25px 44px 30px;
 	}
 
-
+.social-services {
+		width:100%;
+		overflow:hidden;
+	}
+		.social-services li {
+			float:left;
+			padding-right:11px;
+		}
+		.social-services li.last {
+			padding-right:0;
+		}
 }
 /*******************************************************************************
 on hover styles
