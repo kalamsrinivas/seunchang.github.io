@@ -48,6 +48,12 @@ table {
 Theme Styles
 *******************************************************************************/
 
+
+img { 
+	border: none;
+}
+
+
 body {
   box-sizing: border-box;
   color:#373737;
