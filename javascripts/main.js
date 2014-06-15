@@ -38,7 +38,7 @@ $("#twitterbird").click(function(){
 $("#twitterbird").hover(
   function () {
    window.clearInterval(t);
-   $("#twitterbird").css("background",'url("twitter.png") no-repeat scroll 0 0 transparent');
+   $("#twitterbird").css("background",'url("http://kalamsrinivas.github.io/seunchang.github.io/images/twitter.png") no-repeat scroll 0 0 transparent');
   },
   function () {
 	fly();
@@ -85,7 +85,7 @@ function FlyBird(round)
 		stoppx = '-130px' ;
 	}
 
-$("#twitterbird").css("background",'url("twitter.png") no-repeat scroll ' + startpx + ' ' + stoppx + ' transparent').css("left", left).css("top",top);
+$("#twitterbird").css("background",'url("http://kalamsrinivas.github.io/seunchang.github.io/images/twitter.png") no-repeat scroll ' + startpx + ' ' + stoppx + ' transparent').css("left", left).css("top",top);
 if( left > (window.innerWidth - 70))
 {	top = Math.ceil((window.innerHeight- 100 )*Math.random())
 	left = 0 ; 
