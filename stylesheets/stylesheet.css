@@ -355,6 +355,10 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#box-data {
+color: #f2f2f2;	
+}
+
 #downloads {
   position: absolute;
   width: 210px;
