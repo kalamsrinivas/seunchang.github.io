@@ -468,6 +468,27 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
+  
+  .box {
+	background:url(images/box-bg.gif) 0 0 #dfe5d2;
+	width:100%;
+}
+	.box .left-top-corner {
+		background:url(images/left-top-corner.gif) no-repeat left top;
+	}
+	.box .right-top-corner {
+		background:url(images/right-top-corner.gif) no-repeat right top;
+	}
+	.box .left-bot-corner {
+		background:url(images/left-bot-corner.gif) no-repeat left bottom;
+		}
+	.box .right-bot-corner {
+		background:url(images/right-bot-corner.gif) no-repeat right bottom;
+		}
+	.box .inner { 
+		padding:15px 25px 44px 30px;
+	}
+
 
 }
 /*******************************************************************************
