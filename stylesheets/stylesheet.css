@@ -485,7 +485,7 @@ Small Device Styles
 	.box .right-bot-corner {
 		background:url(images/right-bot-corner.gif) no-repeat right bottom;
 		}
-	.box .inner { 
+	.box .inner_box { 
 		padding:15px 25px 44px 30px;
 	}
 
