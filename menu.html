@@ -1,0 +1,104 @@
+<html>
+<head>
+<style type="text/css">
+body {
+	background-image: url("C://Users/ksrinivasreddy/Desktop/GitHub/images/bg.jpg");
+	background-repeat:repeat;
+	margin: 25px 100px;
+}
+img {
+	position: relative;
+	display: block;
+	height: 30%;
+   width: 100%
+}
+.personaltext { 
+   color: maroon;
+   position: absolute; 
+   top: 70px; 
+   left: 1020px;
+   width: 100%
+}
+.personaltag { 
+   color: maroon;
+   position: absolute; 
+   top: 100px; 
+   left: 1200px; 
+   width: 100%
+}
+
+.nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #444444;
+	border-bottom: 1px solid #ccc;  
+}
+.nav ul {list-style:none; width: 100% ; margin:0 auto; padding:0; }
+
+.nav li {float:right; width:150px; background-color:#444444; text-align:center; border-right:1px solid white; 
+		position:relative; line-height:30px;}
+
+.nav li ul li {float:none; width:150px; text-align:	center; 
+				padding-left:2px; border-top:1px solid white;}
+				
+.nav a {text-decoration:none; color:white;}
+
+.nav li ul {position:absolute; top:30px; left:0; visibility:hidden;}
+
+.nav li:hover ul {visibility:visible;}
+
+.nav li:hover {background-color:maroon;}
+
+div.ex1 {direction:rtl;}
+.content {clear:both;}
+
+
+.per {
+    width: 1000px;
+    height: 23px;
+    position: relative;
+    -webkit-animation: mymove 10s infinite;
+    animation: mymove 10s infinite;
+    -webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+</style>
+</head>
+
+<body scroll="no" style="overflow: hidden">
+<div class="per"> K Srinivas Reddy </div>
+<img src="C://Users/ksrinivasreddy/Desktop/GitHub/images/hanoi.jpg" width: "800" height: "200px" alt>
+<h2 class="personaltext"> Kalam Srinivas Reddy </h2>
+<h3 class="personaltag">      Developer </h2>
+<div class="nav">
+	<ul>
+		<li>
+			<a href="login.html">Login</a>
+		</li>
+		<li>
+			<a href="About Us.html">About US</a>
+			<ul>
+				<li><a href="menu1.html">Trail-1</a></li>
+				<li><a href="menu2.html">Trail-2</a></li>
+				<li><a href="menu3.html">Trail-3</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="menu.html">Home</a>
+		</li>
+	</ul>
+</div>
+<p> Hello World!!!
+This is my first personal blog site that i am trying to build.
+</p>
+<div class="ex1"> .I am a great fan of Manchester United Football Club </div>
+</body>
+</html>
