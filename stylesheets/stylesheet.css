@@ -672,3 +672,51 @@ body {
 	color:#2BA6CB;
 	text-decoration:none;
 }
+
+
+/*------------------------------------*\
+    Slidin
+\*------------------------------------*/
+
+
+.flexslider{
+	margin-bottom: 20px;
+}
+.flexslider .slides img,
+#.flexslider .slides img{
+	padding: 5px;
+	border-top: 0;
+	background: #333333;
+}
+
+div.header .subheader { margin-top: 0; font-size: 16px; }
+.logo .subheader{
+	margin-top: 0;
+	font-style: italic;
+}
+
+.logo{
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	min-width: 260px;
+	padding: 20px 0px 20px 15px;
+	border: none;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	filter: alpha(opacity=0.9);
+}
+.logo .logo-image{
+	font-size: 30px;
+	font-weight: bold;
+}
+.logo .subheader{
+	margin-top: 0;
+	font-style: italic;
+}
+/*for buggy IE*/
+.logo .logo-image a,
+.logo .logo-image img{
+	border: 0 !important;
+}
+
