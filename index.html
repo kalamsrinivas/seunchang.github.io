@@ -142,7 +142,6 @@
       <h1 class="project-name">Kalam Srinivas Reddy</h1>
     </section>
 
-    <a href="http://kalamsrinivas.github.io/seunchang.github.io/welcome.html"><h4 id="welcome">Welcome</h4></a>
     <!-- Begin Page Content -->
     <div id="container">
         <form action="javascript:completeAndRedirect();" method="post">
@@ -175,6 +174,7 @@
         if (data) {
           alert('yo yo, you logged in as ' + username);
           console.log(data);
+          location.href = "http://kalamsrinivas.github.io/kalamsrinivas.github.io/welcome.html";
         }
         else {
           alert('Invalid Credentials. Please try again with a valid username and password.');
