@@ -145,7 +145,7 @@
 
     <!-- Begin Page Content -->
     <div id="container">
-        <form action="login_process.php" method="post">
+        <form action="javascript:completeAndRedirect();" method="post">
             <label for="loginmsg" style="color:hsla(0,100%,50%,0.5); font-family:"Helvetica Neue",Helvetica,sans-serif;"><?php  echo @$_GET['msg'];?></label>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username">
@@ -161,4 +161,9 @@
 
   
   </body>
+  <script>
+  function completeAndRedirect() {
+    alert('testing javascript function');
+  }
+  </script>
 </html>
