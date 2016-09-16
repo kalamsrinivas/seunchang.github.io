@@ -167,6 +167,9 @@
     alert('login');
     alert(jQuery("#username").val());
     alert(jQuery("#password").val());
+    var username = jQuery("#username").val();
+    var password = jQuery("#password").val();
+    jQuery.ajax({url:'https://api.mlab.com/api/1/databases/crazyprojects/collections/user?q={"user_id":"' + username + '","password":"' + password + '"}&fo=true&apiKey=nLnn9i38XeyoNKxYixJRmTZdOK_76BAV', success: function(data) {alert('yo yo, you logged in as' + username);} });
   }
   </script>
 </html>
