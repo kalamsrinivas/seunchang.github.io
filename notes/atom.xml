@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Notes from Kalam Srinivas Reddy</title>
- <link href="http://jmcglone.com/notes/atom.xml" rel="self"/>
- <link href="http://jmcglone.com/notes/"/>
+ <link href="http://srinivasreddy.xyz/notes/atom.xml" rel="self"/>
+ <link href="http://srinivasreddy.xyz/notes/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://jmcglone.com/notes/</id>
+ <id>http://srinivasreddy.xyz/notes/</id>
  <author>
    <name>Kalam Srinivas Reddy</name>
    <email>jwmcglone@gmail.com</email>
@@ -17,9 +17,9 @@ layout: feed
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://jmcglone.com{{ post.url }}"/>
+   <link href="http://srinivasreddy.xyz{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://jmcglone.com/notes{{ post.id }}</id>
+   <id>http://srinivasreddy.xyz/notes{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
