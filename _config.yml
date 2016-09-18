@@ -1,2 +1,3 @@
 name: Kalam Srinivas Reddy
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
